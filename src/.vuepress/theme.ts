@@ -15,7 +15,14 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  // repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 导航栏上的个人仓库地址
+  repo: "https://gitee.com/yjh-biancheng",
+
+  // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
+  repoLabel: "Gitee",
+
+  // 是否在导航栏内显示仓库链接-默认为true
+  repoDisplay: true,
 
   docsDir: "src",
 
@@ -32,7 +39,6 @@ export default hopeTheme({
   // 博客相关
   blog: {
     description: "一个Java后端菜鸡",
-    intro: "/intro.html",
     medias: {
     //   Baidu: "https://example.com",
     //   BiliBili: "https://example.com",
@@ -44,7 +50,7 @@ export default hopeTheme({
     //   Evernote: "https://example.com",
     //   Facebook: "https://example.com",
     //   Flipboard: "https://example.com",
-      Gitee: "https://gitee.com/yjh-biancheng",
+      // Gitee: "https://gitee.com/yjh-biancheng",
     //   GitHub: "https://github.com/yujiahan2018",
     //   Gitlab: "https://example.com",
     //   Gmail: "mailto:info@example.com",
@@ -68,6 +74,11 @@ export default hopeTheme({
     //   MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
     },
   },
+  navbarLayout: {
+    start: ['Brand'],
+    center: ['Links'],
+    end: ["Repo", "Outlook", "Language", "Search"],
+  },
 
   // 加密配置
   // encrypt: {
@@ -86,7 +97,10 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    blog: true,
+    blog:{
+      article: "/posts/",
+      filter:(page) => Boolean(page.filePathRelative) && !page.frontmatter.home,
+    },
     
 
     // 在启用之前需要安装 @waline/client

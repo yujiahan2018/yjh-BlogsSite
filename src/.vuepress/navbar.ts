@@ -6,22 +6,35 @@ export default navbar([
     icon: "home",
     link:"/"
   },
-  // "/demo/",
   {
-    text: "文章列表",
+    text: "博文索引",
     icon: "list",
-    link:"/posts/"
+    children: [
+      {
+        text: "代码笔记",
+        prefix:"/posts/",
+        children: [
+          { text: "后端笔记", icon: "code", link: "houduan/" },
+          
+        ],
+      },
+      {
+        text: "快速直达",
+        children: [
+          { text: "全部文章", link: "/posts/" },
+          { text: "星标文章", link: "/star/" },
+          { text: "类别", link: "/category/" },
+          { text: "标签", link: "/tag/" },
+          { text: "时间轴", link: "/timeline/" },
+        ],
+      },
+    ],
   },
+  
   {
-    text: "文章分类",
-    icon: "tag",
-    link:"/category/"
+    text: "致谢信息",
+    link:"/thank-msg/"
   },
-  // {
-  //   text: "时间轴",
-  //   icon: "https://blog-tuchuang1.oss-cn-beijing.aliyuncs.com/icon/time.svg",
-  //   link:"/timeline/"
-  // },
   // {
   //   text: "",
   //   icon: "gitee",

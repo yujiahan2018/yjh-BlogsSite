@@ -16,7 +16,6 @@ export default sidebar({
       prefix: "posts/",
       children: "structure",
     },
-    "intro",
     // {
     //   text: "幻灯片",
     //   icon: "person-chalkboard",

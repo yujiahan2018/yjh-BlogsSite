@@ -1,9 +1,9 @@
 // place your custom styles here
 
 // 去掉文章列表
-// .vp-blog-infos{
-//   display: none;
-// }
+.vp-blog-infos{
+  display: none;
+}
 
 // footer style 重写
 // .vp-footer-wrapper {
@@ -20,3 +20,12 @@
 //     text-align: center;
 //     transition: border-top-color var(--color-transition), background var(--color-transition), padding var(--transform-transition);
 // }
+
+// 空占位图 样式调节
+.empty-icon{
+  width: 50%;
+}
+
+
+
+

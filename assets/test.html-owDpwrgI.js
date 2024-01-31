@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as s,c as o,b as e}from"./app-ZB_wh-x8.js";const c={},a=e("h1",{id:"致谢",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#致谢"},[e("span",null,"致谢")])],-1),n=[a];function r(_,l){return s(),o("div",null,n)}const f=t(c,[["render",r],["__file","test.html.vue"]]);export{f as default};

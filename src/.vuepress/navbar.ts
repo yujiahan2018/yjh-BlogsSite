@@ -10,7 +10,7 @@ export default navbar([
   {
     text: "文章列表",
     icon: "list",
-    link:"/article/"
+    link:"/posts/"
   },
   {
     text: "文章分类",

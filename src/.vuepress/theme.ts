@@ -33,19 +33,19 @@ export default hopeTheme({
   blog: {
     description: "一个Java后端菜鸡",
     intro: "/intro.html",
-    // medias: {
+    medias: {
     //   Baidu: "https://example.com",
     //   BiliBili: "https://example.com",
     //   Bitbucket: "https://example.com",
     //   Dingding: "https://example.com",
     //   Discord: "https://example.com",
     //   Dribbble: "https://example.com",
-    //   Email: "mailto:info@example.com",
+    //   Email: "https://example.com",
     //   Evernote: "https://example.com",
     //   Facebook: "https://example.com",
     //   Flipboard: "https://example.com",
-    //   Gitee: "https://example.com",
-    //   GitHub: "https://example.com",
+      Gitee: "https://gitee.com/yjh-biancheng",
+    //   GitHub: "https://github.com/yujiahan2018",
     //   Gitlab: "https://example.com",
     //   Gmail: "mailto:info@example.com",
     //   Instagram: "https://example.com",
@@ -66,7 +66,7 @@ export default hopeTheme({
     //   Youtube: "https://example.com",
     //   Zhihu: "https://example.com",
     //   MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
-    // },
+    },
   },
 
   // 加密配置

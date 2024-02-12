@@ -15,6 +15,7 @@ export default navbar([
         prefix:"/posts/",
         children: [
           { text: "后端笔记", icon: "code", link: "houduan/" },
+          { text: "git笔记", icon: "code", link: "git/" },
           
         ],
       },

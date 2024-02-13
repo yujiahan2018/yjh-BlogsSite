@@ -63,3 +63,8 @@
 + **提交代码** ：将暂存区代码提交到了**本地**仓库；
 + **推送代码** ：将代码从本地git仓库推送到**远程**git仓库
 
+---
+
+参考资料：
+
+[1]. [由 Scott Chacon 和 Ben Straub 撰写并由 Apress 出版的整本 Pro Git 书](https://git-scm.com/book/zh/v2)

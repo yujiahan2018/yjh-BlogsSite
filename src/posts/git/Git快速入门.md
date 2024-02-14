@@ -100,6 +100,10 @@ _请牢记：当你切换分支的时候，Git 会重置你的工作目录，使
 
 如：`git branch --help` 将会显示 `git branch` 相关的文档。如下图，**详细阐明了命令使用方式**
 
+![](.\picture\Git基础语法\screenshot-1707918725713.png)
+
+
+
 ### 其他常用命令
 `git log`：git日志
 
